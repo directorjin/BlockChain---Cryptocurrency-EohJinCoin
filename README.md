@@ -30,6 +30,6 @@ BlockChain---EohJinCoin
 
 📈今の段階
 ===
-<img width="700" src="https://user-images.githubusercontent.com/44941601/77504221-1ccad180-6ea3-11ea-9343-41912d7356a6.png">
+<img width="1000" src="https://user-images.githubusercontent.com/44941601/77504221-1ccad180-6ea3-11ea-9343-41912d7356a6.png">
 1. コインの移動をtranaction に含めてhash に適用した。  
 2. コインの基本を実装。
