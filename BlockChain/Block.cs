@@ -12,14 +12,13 @@ namespace BlockChain
     {
 
         
-
+        //var
         private int blockID;
         private StringBuilder previousBlockHash;
         private int nonce;
-        
         private List<Transaction> transactionList = new List<Transaction>();
 
-
+        //intial
         public Block(int blockID, StringBuilder previousBlockHash, int nonce, List<Transaction> transactionList)
         {
 
@@ -30,7 +29,7 @@ namespace BlockChain
 
         }
 
-        #region GetSet Date(ID,nonce,data)
+        #region GetSet Date(ID,nonce,Hash)
         public int GetBlockID()
         {
             return blockID;
@@ -43,10 +42,7 @@ namespace BlockChain
         {
             return previousBlockHash;
         }
-        public void setPreviousBlockHash(StringBuilder previousBlockHash)
-        {
-            this.previousBlockHash = previousBlockHash;
-        }
+        
         public int GetNonce()
         {
             return nonce;
@@ -57,6 +53,10 @@ namespace BlockChain
             this.nonce = nonce;
         }
 
+        public void setPreviousBlockHash(StringBuilder previousBlockHash)
+        {
+            this.previousBlockHash = previousBlockHash;
+        }
         public StringBuilder GetBlockHash()
         {
             StringBuilder sb = new StringBuilder();
@@ -104,7 +104,6 @@ namespace BlockChain
 
         public void Mine()
         {
-
             while (true)
             {
                 if (MyFuction.SubString(GetBlockHash(), 0, 4).Equals("1993"))
@@ -117,7 +116,7 @@ namespace BlockChain
         }
     }
 
-    #region MyFuction for Utility
+    #region MyFuction for Code Utility
     internal class MyFuction
     {
         public static string HashPassword(string input)

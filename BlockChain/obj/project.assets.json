@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\direc\\Desktop\\Programming history\\UnityProject2020\\BlockChainProject\\BlockChain\\BlockChain\\BlockChain.csproj",
+      "projectUniqueName": "C:\\Users\\direc\\Desktop\\Programming history\\UnityProject2020\\BlockChain\\BlockChain---EohJinCoin\\BlockChain\\BlockChain.csproj",
       "projectName": "BlockChain",
-      "projectPath": "C:\\Users\\direc\\Desktop\\Programming history\\UnityProject2020\\BlockChainProject\\BlockChain\\BlockChain\\BlockChain.csproj",
+      "projectPath": "C:\\Users\\direc\\Desktop\\Programming history\\UnityProject2020\\BlockChain\\BlockChain---EohJinCoin\\BlockChain\\BlockChain.csproj",
       "packagesPath": "C:\\Users\\direc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\direc\\Desktop\\Programming history\\UnityProject2020\\BlockChainProject\\BlockChain\\BlockChain\\obj\\",
+      "outputPath": "C:\\Users\\direc\\Desktop\\Programming history\\UnityProject2020\\BlockChain\\BlockChain---EohJinCoin\\BlockChain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
